@@ -9,6 +9,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Personal
+.idea/
+
 # AWS User-specific
 .idea/**/aws.xml
 
