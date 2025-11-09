@@ -1,0 +1,8 @@
+[project]
+name = "my_project"
+dependencies = ["colorama"]
+
+# for buildung a project
+[build_system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
