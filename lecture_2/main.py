@@ -5,3 +5,18 @@ def generate_profile(age : int) -> str:
         return "Teenager"
     else:
         return "Adult"
+
+
+user_name = input("Enter your full name: ")
+
+while True:
+    birth_year_str = input("Enter your birth year: ")
+
+    current_age = 2025 - int(birth_year_str)
+
+    if current_age > 150 or current_age < 0:
+        print("Your age should not be greater than 150 or less than 0. Enter correct birth year.")
+    else:
+        break
+
+hobbies = []
