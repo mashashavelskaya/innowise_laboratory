@@ -5,6 +5,8 @@
 # Personal
 .idea/
 lecture_1/.idea/
+lecture_2/.idea/
+lecture_2/.venv/
 
 # User-specific stuff
 .idea/**/workspace.xml
