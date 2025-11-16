@@ -20,3 +20,10 @@ while True:
         break
 
 hobbies = []
+
+while True:
+    hobby = input("Enter a favorite hobby or type 'stop' to finish: ")
+    if hobby.lower() == "stop":
+        break
+    else:
+        hobbies.append(hobby)
