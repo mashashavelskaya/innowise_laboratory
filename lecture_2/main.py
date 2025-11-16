@@ -31,7 +31,8 @@ def get_hobbies_list(hobbies_list : list):
             hobbies_list.append(hobby)
     return hobbies_list
 
-# ------- Main ----------
+
+# ------- main ----------
 user_name = input("Enter your full name: ")
 
 birth_year_str = get_birth_year_str()
